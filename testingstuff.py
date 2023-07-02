@@ -55,16 +55,25 @@
 #     else:
 #         return False
 
-s = "hello world 5 x 5"
-import re
-class Solution:
-    def areNumbersAscending(s: str) -> bool:
-        m = re.findall(r'\d+', s)
-        for i in range(len(m)):
-            m[i] = int(m[i])
-        for i in range(len(m)-1):
-            if m[i] >= m[i+1]:
-                return False
-        return True
+# s = "hello world 5 x 5"
+# import re
+# class Solution:
+#     def areNumbersAscending(s: str) -> bool:
+#         m = re.findall(r'\d+', s)
+#         for i in range(len(m)):
+#             m[i] = int(m[i])
+#         for i in range(len(m)-1):
+#             if m[i] >= m[i+1]:
+#                 return False
+#         return True
 
-print(Solution.areNumbersAscending(s))
+# print(Solution.areNumbersAscending(s))
+
+a = [2, 5, 1, 8, 9]
+x = 4
+kt = 0
+for i in range(0, 5):
+    if x == a[i]:
+        kt == 1
+
+print(kt)
