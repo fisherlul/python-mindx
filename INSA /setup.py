@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
 fig, ax = plt.subplots(figsize = (6,6))
 t = np.linspace(tmin,tmax,100) # 100 pts suffisent !
 ax.plot(x(t),y(t),color='black')
